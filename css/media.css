@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--ff-roboto);
+}
+
 .container {
   border: 1px solid red;
   max-width: 1200px;
@@ -52,12 +56,18 @@ button:hover {
 
 header.hero {
   display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+header.hero h1,
+p {
+  line-height: var(--line-h-xl);
 }
 
 header.hero img {
   width: 400px;
 }
-
 
 /*! MEDIA SORGULARI */
 @media screen and (mix-width: 700px) {
