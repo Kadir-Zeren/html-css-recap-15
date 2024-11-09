@@ -14,11 +14,11 @@
   --orange-vivid: hsl(15, 98%, 50%);
   --orange-light: hsl(15, 90%, 65%);
 
-  /*! Font-Families */
+  /*! Font-Families  */
   --ff-roboto: "Roboto", sans-serif;
   --ff-smokum: "Smokum", cursive;
 
-  /*! Font-Sizes. */
+  /*! Font-Sizes  */
   --fs-3xl: 3rem;
   --fs-2xl: 2rem;
   --fs-xl: 1.8rem;
@@ -27,18 +27,14 @@
   --fs-xs: 0.6rem;
   --fs-sm: 0.9rem;
 
-  /*! Shadows */
+  /*! Shadows  */
   --shadow-light: 0 0 10px rgba(0, 0, 0, 0.3);
   --shadow-dark: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 h1 {
-  color: var(--dark-orange);
+  color: var(--orange-dark);
   font-family: var(--ff-roboto);
-}
-
-p {
-  font-family: var(--ff-smokum);
 }
 
 p {
