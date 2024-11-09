@@ -11,9 +11,8 @@ body {
 }
 
 .container {
-  border: 1px solid red;
   max-width: 1200px;
-  margin: auto;
+  margin: 2rem auto;
 }
 
 nav {
@@ -102,15 +101,28 @@ main .card img {
   width: 100%;
 }
 
+main .card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 /*! MEDIA SORGULARI */
-@media screen and (mix-width: 700px) {
+@media screen and (max-width: 700px) {
   nav {
     flex-direction: column;
   }
   nav img {
     width: 250px;
   }
+
   header.hero {
+    flex-direction: column;
+  }
+
+  main .card {
+    flex-direction: column;
+  }
+
+  main .card:nth-child(even) {
     flex-direction: column;
   }
 }
